@@ -44,15 +44,6 @@ npm run preview
 2. Source を "GitHub Actions" に設定
 3. `main` ブランチにプッシュすると自動的にデプロイされます
 
-### 重要な設定
-
-- `vite.config.ts` でリポジトリ名に合わせて `base` パスを設定してください
-- 現在は `/work-estimation-tool/` に設定されています
-
-```typescript
-base: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
-```
-
 ## ライセンス
 
 MIT License
